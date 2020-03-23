@@ -22,7 +22,10 @@
         },
         methods:{
             converter(){
-                
+                let de_para = this.moedaA + _ + this.moedaB
+                let url = "https://free.currconv.com/api/v7/convert?q="
+                         + de_para
+                         +"&compact=ultra&apiKey=4cb0cbd6ee5ca563ce41";                                        
             }
         }
     };
