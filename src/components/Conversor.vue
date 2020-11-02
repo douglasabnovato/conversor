@@ -1,16 +1,13 @@
 <template>
-
     <div class="conversor">
         <h2>{{moedaA}} para {{moedaB}}</h2>
         <input type="text" v-model="moedaA_value" v-bind:placeholder="moedaA">
         <input type="button" value="Converter" v-on:click="converter">
         <h2>{{moedaB_value}}</h2>
     </div>  
-
 </template>
 
 <script>
-
     export default {
         name:"Conversor",
         props: ["moedaA", "moedaB"],
@@ -21,16 +18,12 @@
             };
         },
         methods:{
-
             converter(){
                 let de_para = this.moedaA + "_" + this.moedaB;
-
                 let url = 
-                    "https://free.currconv.com/api/v7/convert?q="
+                    "https://free.currencyconverterapi.com/api/v5/convert?q="
                     + de_para
                     + "&compact=ultra&apiKey=4cb0cbd6ee5ca563ce41";
-                          
-            
                 fetch(url)
                     .then(res => {
                         return res.json();
@@ -42,9 +35,7 @@
             }
         }
     };
-
 </script>
-
 <style scoped>
     .conversor{
         padding: 20px;

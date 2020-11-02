@@ -40,6 +40,7 @@
 
 #### Próximo passo na aplicação
 
+- warning: a API está me respondendo NaN
 - Aperfeiçoar o frontend
 - Link para o artigo da aplicação 
 
