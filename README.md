@@ -5,7 +5,7 @@
 ---
 <br>
 
-![Resultado da Aplicação](/images/a-aplicacao-terminada.jpg)
+![Resultado da Aplicação](/public/aplicacao-terminada.jpg)
 
 ### O que é a aplicação
 
@@ -21,13 +21,15 @@
 #### Código + Dependências
 
 - git clone "http": ter o projeto na máquina local
+- se, Criar uma nova aplicação com vue: vue create nome-do-projeto
 - node lts: v12.18.3
 - npm lts: v6.14.6
 - npm install vue
 - vue cli: `npm install --global @vue/cli`  
 - vue --version: @vue/cli 4.3.1
 - Rodar a aplicação:  npm run serve
-- Criar uma nova aplicação com vue: vue create nome-do-projeto
+- npx browserslist --update-db
+- npm install vue-template-compiler
 
 #### Passo a passo do projeto 
 
