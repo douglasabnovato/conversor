@@ -16,7 +16,7 @@
 - HTML/Javascript: estrutura e efeitos
 - CSS: posicionamento, dimensionamento e muito mais.
 - VueJS: os fundamentos, como state, props, components, ciclo de vida.
-- API de conversão: `https://free.currencyconverterapi.com/`
+- API de conversão [Currency Converter API](https://free.currencyconverterapi.com/)
 
 #### Código + Dependências
 
