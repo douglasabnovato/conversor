@@ -23,10 +23,11 @@
 - git clone "http": ter o projeto na máquina local
 - node lts: v12.18.3
 - npm lts: v6.14.6
-- vue cli: `npm install -g @vue/cli` 
+- npm install vue
+- vue cli: `npm install --global @vue/cli`  
 - vue --version: @vue/cli 4.3.1
 - Rodar a aplicação:  npm run serve
-- Criar uma aplicação com vue: vue create nome-do-projeto
+- Criar uma nova aplicação com vue: vue create nome-do-projeto
 
 #### Passo a passo do projeto 
 
