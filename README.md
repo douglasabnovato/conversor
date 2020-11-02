@@ -9,7 +9,7 @@
 
 ### O que é a aplicação
 
-- Aplicação que consulta a API para conversões.
+- Aplicação que consulta a API para conversões de moedas.
 
 #### Tecnologias/ Ferramentas/ Bibliotecas
 
@@ -21,18 +21,23 @@
 #### Código + Dependências
 
 - git clone "http": ter o projeto na máquina local
-- npm install 
-- Rodar a aplicação:  
+- node lts: v12.18.3
+- npm lts: v6.14.6
+- vue cli: `npm install -g @vue/cli` 
+- vue --version: @vue/cli 4.3.1
+- Rodar a aplicação:  npm run serve
+- Criar uma aplicação com vue: vue create nome-do-projeto
 
 #### Passo a passo do projeto 
 
-- [x] 1. Componentização com ReactJS
+- [x] 1. Componentização com VueJS
 - [x] 2. Estrutura HTML 
 - [x] 3. Estilização CSS 
 - [x] 4. Arquivos: `index.html`, `main.js`, `App.vue`, `Conversor.vue`
 
 #### Próximo passo na aplicação
 
+- Aperfeiçoar o frontend
 - Link para o artigo da aplicação 
 
 #### Anotações   
