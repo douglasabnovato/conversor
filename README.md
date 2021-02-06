@@ -36,6 +36,7 @@
 ### Web - Próximo Passo 
 
 - deploy da aplicação
+- resposta da requisição
 
 ## 🛠 Tecnologias
 
@@ -48,7 +49,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Git][git]
 - [Github][github]    
 - API de conversão [Currency Converter API](https://free.currencyconverterapi.com/)
-http://free.currencyconverterapi.com/api/v5/convert?q=USD_BRL&compact=y
+- https://free.currconv.com/api/v7/convert?q=USD_PHP&compact=ultra&apiKey=eb107cd1cb97803dad06
 
 ## 🚀 Como executar o projeto
 

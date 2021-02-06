@@ -2,16 +2,16 @@
   <div id="app">
     <h3 class="text-center">Conversor de Moeda</h3>
     <div class="linha">
-      <Conversor moedaA="USD" moedaB="BRL"/>
-      <Conversor moedaA="BRL" moedaB="USD"/>
+      <Conversor moeda-a="USD" moeda-b="BRL"/>
+      <Conversor moeda-a="BRL" moeda-b="USD"/>
     </div>   
     <div class="linha">
-      <Conversor moedaA="CAD" moedaB="BRL"/>
-      <Conversor moedaA="BRL" moedaB="CAD"/>
+      <Conversor moeda-a="CAD" moeda-b="BRL"/>
+      <Conversor moeda-a="BRL" moeda-b="CAD"/>
     </div> 
     <div class="linha">
-      <Conversor moedaA="EUR" moedaB="BRL"/>
-      <Conversor moedaA="BRL" moedaB="EUR"/>
+      <Conversor moeda-a="EUR" moeda-b="BRL"/>
+      <Conversor moeda-a="BRL" moeda-b="EUR"/>
     </div>  
     <h5 class="text-footer">@douglasabnovato</h5>    
   </div>

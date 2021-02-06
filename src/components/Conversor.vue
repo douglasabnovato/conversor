@@ -21,14 +21,11 @@
             converter(){
                 let de_para = this.moedaA + "_" + this.moedaB;
                 let url = 
-                    "https://free.currconv.com/api/v7/convert?q="
-                    + de_para
-                    + "&compact=ultra&apiKey=eb107cd1cb97803dad06"; 
+                    "https://free.currconv.com/api/v7/convert?q="+ 
+                    de_para
+                    +"&compact=ultra&apiKey=eb107cd1cb97803dad06";
 
-                fetch(url)
-                    .then(res => {
-                        return res.json();
-                    })
+                fetch(url).then(res => {return res.json()})
                     .then(json => { 
                         let cotacao = json[de_para].val;
                         this.moedaB_value = (cotacao * parseFloat(this.moedaA_value)).toFixed(2);
