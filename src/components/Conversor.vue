@@ -1,9 +1,9 @@
 <template>
     <div class="conversor">
-        <h2>{{moedaA}} para {{moedaB}}</h2>
+        <h2>{{ moedaA }} para {{ moedaB }}</h2>
         <input type="text" v-model="moedaA_value" v-bind:placeholder="moedaA">
         <input type="button" value="Converter" v-on:click="converter">
-        <h2>{{moedaB_value}}</h2>
+        <h2>{{ moedaB_value }}</h2>
     </div>  
 </template>
 
@@ -21,9 +21,10 @@
             converter(){
                 let de_para = this.moedaA + "_" + this.moedaB;
                 let url = 
-                    "https://free.currencyconverterapi.com/api/v5/convert?q="
+                    "https://free.currconv.com/api/v7/convert?q="
                     + de_para
-                    + "&compact=ultra&apiKey=4cb0cbd6ee5ca563ce41";
+                    + "&compact=ultra&apiKey=eb107cd1cb97803dad06"; 
+
                 fetch(url)
                     .then(res => {
                         return res.json();
@@ -36,6 +37,7 @@
         }
     };
 </script>
+
 <style scoped>
     .conversor{
         padding: 20px;

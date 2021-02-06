@@ -24,7 +24,7 @@
     components: {
       Conversor
     }
-  }
+  };
 
 </script>
 

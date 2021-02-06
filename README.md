@@ -48,6 +48,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Git][git]
 - [Github][github]    
 - API de conversão [Currency Converter API](https://free.currencyconverterapi.com/)
+http://free.currencyconverterapi.com/api/v5/convert?q=USD_BRL&compact=y
 
 ## 🚀 Como executar o projeto
 
